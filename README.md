@@ -1,38 +1,38 @@
-# Kasper webpage
+# Leon webpage
 
 Welcome to my first frontend project.
 
 
-### Overview
+## Overview
 
 Welcome to my project, where I've taken a free template design and turned it into a fully functional webpage. <br>
 This endeavor showcases my skills in **HTML** and **CSS** *(JavaScript soon!!)* as I transform a static design into an interactive online experience.
 
 
-### Description
+## Description
 
 I've selected a free template design as the foundation of this project. By utilizing HTML and CSS, I've meticulously converted the static template into a live webpage that users can interact with. Every design element, from layout to typography, has been implemented to provide an authentic user experience.
 
 
-### Features
+## Features
 
 - **Interactive Elements:** Explore interactive components that breathe life into the once-static design.
 - **Responsive Design:** Experience seamless navigation across various devices, thanks to responsive styling.
 
 
-### Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
 
 
-### Libraries used
+## Libraries used
 
 - Font Awesome v6.4.2
 - Normalize.css v8.0.1
 
 
-### Design preview
+## Design preview
 
 To explore this project locally, follow these steps:
 
@@ -44,11 +44,11 @@ To explore this project locally, follow these steps:
 4. Interact with the webpage to experience the transformed template.
 
 
-### Credits
+## Credits
 
-I used the [kasper](https://www.graphberry.com/item/kasper-one-page-psd-template) template from [graphberry](https://www.graphberry.com/) as the starting point for this project.
+I used the [kasper](https://www.graphberry.com/item/leon-psd-agency-template) template from [graphberry](https://www.graphberry.com/) as the starting point for this project.
 
 
-### Contact
+## Contact
 
 If you have any questions, feedback, or suggestions, feel free to [send an email](mailto:karimelkhanoufi22@gmail.com).
