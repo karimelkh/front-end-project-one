@@ -11,7 +11,7 @@ This endeavor showcases my skills in **HTML** and **CSS** *(JavaScript soon!!)* 
 
 ## Description
 
-I've selected a free template design as the foundation of this project. By utilizing HTML and CSS, I've meticulously converted the static template into a live webpage that users can interact with. Every design element, from layout to typography, has been implemented to provide an authentic user experience.
+I've selected a free template design as the foundation of this project. By utilizing HTML and CSS *(JavaScript soon!!)*, I've meticulously converted the static template into a live webpage that users can interact with. Every design element, from layout to typography, has been implemented to provide an authentic user experience.
 
 
 ## Features
@@ -46,7 +46,7 @@ To explore this project locally, follow these steps:
 
 ## Credits
 
-I used the [kasper](https://www.graphberry.com/item/leon-psd-agency-template) template from [graphberry](https://www.graphberry.com/) as the starting point for this project.
+I used the [leon](https://www.graphberry.com/item/leon-psd-agency-template) template from [graphberry](https://www.graphberry.com/) as the starting point for this project.
 
 
 ## Contact
