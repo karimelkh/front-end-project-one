@@ -71,6 +71,12 @@ body {
 /* Start Header */
 .header {
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 .header .container {
   display: flex;
@@ -83,73 +89,72 @@ body {
 .header .links {
   position: relative;
 }
-.header .links:hover .icon span:nth-child(2) {
-  width: 100%;
-}
 .header .links .icon {
-  width: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  background-color: #ddd;
+  cursor: pointer;
 }
 .header .links .icon span {
+  width: calc(100% - 10px);
+  height: 3px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 5px;
   background-color: #333;
-  margin-bottom: 5px;
-  height: 2px;
+  transition: 0.3s;
 }
 .header .links .icon span:first-child {
-  width: 100%;
+  top: calc(25% - 1.5px);
 }
 .header .links .icon span:nth-child(2) {
-  width: 60%;
-  transition: var(--main-duration);
+  top: calc(50% - 1.5px);
 }
 .header .links .icon span:last-child {
-  width: 100%;
+  top: calc(75% - 1.5px);
 }
 .header .links ul {
-  list-style: none;
+  max-height: 40px;
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6;
+  display: flex;
   position: absolute;
-  right: 0;
-  min-width: 200px;
-  top: calc(100% + 15px);
-  display: none;
-  z-index: 1;
-}
-.header .links ul::before {
-  content: "";
-  border-width: 10px;
-  border-style: solid;
-  border-color: transparent transparent #f6f6f6 transparent;
-  position: absolute;
-  right: 5px;
-  top: -20px;
-}
-.header .links:hover ul {
-  display: block;
+  top: 0;
+  right: 40px;
+  list-style: none;
+  transition: opacity 0.3s;
 }
 .header .links ul li a {
-  display: block;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   text-decoration: none;
+  background-color: #f6f6f6;
   color: #333;
   transition: var(--main-duration);
 }
-.header .links ul li a:hover {
-  padding-left: 25px;
+.header .links ul li:hover a {
+  background-color: white;
+  color: black;
 }
-.header .links ul li:not(:last-child) a {
-  border-bottom: 1px solid #ddd;
+@media (max-width: 767px) {
+  .header .links ul {
+    top: 64px;
+    right: 0;
+  }
 }
 /* End Header */
 /* Start Landing Section */
 .landing {
   background-image: url(../images/landing.jpg);
   background-size: cover;
-  height: calc(100vh - 64px);
+  height: 100vh;
   position: relative;
 }
 .landing .intro-text {

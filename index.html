@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leon | Template One</title>
+    <title>Leon</title>
     <!-- Main Template CSS File -->
     <link rel="stylesheet" href="css/leon.css" />
+        <!-- styles for Scripts -->
+        <link rel="stylesheet" href="css/for-scripts.css" />
     <!-- Render All Elements Normally -->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome Library -->
@@ -24,12 +26,12 @@
       <div class="container">
         <img decoding="async" class="logo" src="images/logo.png" alt="" />
         <div class="links">
-          <span class="icon">
+          <span class="icon" id="burger-icon">
             <span></span>
             <span></span>
             <span></span>
           </span>
-          <ul>
+          <ul class="none" id="nav-menu">
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
@@ -163,7 +165,7 @@
     </div>
     <!-- End Portfolio -->
     <!-- Start About -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="container">
         <h2 class="special-heading">About</h2>
         <p>Less is more work</p>
@@ -188,7 +190,7 @@
     </div>
     <!-- End About -->
     <!-- Start Contact -->
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="container">
         <h2 class="special-heading">Contact</h2>
         <p>We are born to create</p>
@@ -208,5 +210,8 @@
     <!-- Start Footer -->
     <div class="footer">&copy; 2021 <span>Leon</span> All Right Reserved</div>
     <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="scripts/script.js"></script>
   </body>
 </html>

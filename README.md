@@ -6,7 +6,7 @@ Welcome to my first frontend project.
 ## Overview
 
 Welcome to my project, where I've taken a free template design and turned it into a fully functional webpage. <br>
-This endeavor showcases my skills in **HTML** and **CSS** *(JavaScript soon!!)* as I transform a static design into an interactive online experience.
+This endeavor showcases my skills in **HTML**, **CSS** and **JavaScript** as I transform a static design into an interactive online experience.
 
 
 ## Description
